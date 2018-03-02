@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/styles.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <title>Services Calculator</title>
+  </head>
+  <body>
+    <div id="content">
+    <div id="contactbody">
+
+      <ul class="bar" id="header">
+                 <li class="elem"><a class="nav" href="index.html">Services Calculator</a></li>
+      </ul>
+
+      <form class="services" id="main" v-cloak>
+
+          <h1 class="services">Services</h1>
+
+          <ul class="services">
+              <li class="services" v-for="service in services" v-on:click="toggleActive(service)" v-bind:class="{ 'active': service.active}">
+                  {{service.name}} <span>{{service.price | currency}}</span>
+              </li>
+          </ul>
+
+          <div class="services total">
+              Total: <span class="services">{{total() | currency}}</span>
+          </div>
+
+      </form>
+
+  </div>
+      <div class="bar" class="footer" id="footer" >
+        <p class="footer">Feel free to take a look at my <a  class="footer" href='https://github.com/mckrieger/creative3'>Github Repository</a></p>
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+    <script src="/script.js"></script>
+  </body>
+</html>
