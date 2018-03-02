@@ -15,7 +15,7 @@
 
       <form class="services" id="main" v-cloak>
 
-          <h1 class="services">Services</h1>
+          <h1 class="services">What Would You Like?</h1>
 
           <ul class="services">
               <li class="services" v-for="service in services" v-on:click="toggleActive(service)" v-bind:class="{ 'active': service.active}">
@@ -24,7 +24,7 @@
           </ul>
 
           <div class="services total">
-              Total: <span class="services">{{total() | currency}}</span>
+              Your Total: <span class="services">{{total() | currency}}</span>
           </div>
 
       </form>

@@ -13,7 +13,7 @@ until the Vue instance is ready */
 
 body{
     font:15px/1.3 'Open Sans', sans-serif;
-    color: #5e5b64;
+    color: #B5DDFF;
     text-align:center;
     height:100%;
     padding:0px;
@@ -22,7 +22,6 @@ body{
 
 a, a:visited {
     outline:none;
-    color:#389dc1;
 }
 
 a:hover{
@@ -34,7 +33,7 @@ section, footer, header, aside, nav{
 }
 
 form{
-    background-color: #61a1bc;
+    background-color: #9BD2FF;
     border-radius: 2px;
     box-shadow: 0 1px 1px #ccc;
     width: 400px;
@@ -44,7 +43,7 @@ form{
 
 form h1{
     color:#fff;
-    font-size:64px;
+    font-size:52px;
     font-family:'Cookie', cursive;
     font-weight: normal;
     line-height:1;
@@ -62,7 +61,7 @@ form ul{
 
 form ul li{
     padding:20px 30px;
-    background-color:#e35885;
+    background-color:#B28949;
     margin-bottom:8px;
     box-shadow:0 1px 1px rgba(0,0,0,0.1);
     cursor:pointer;
@@ -73,7 +72,7 @@ form ul li span{
 }
 
 form ul li.active{
-    background-color:#8ec16d;
+    background-color:#FFD89B;
 }
 
 div.total{
@@ -94,7 +93,7 @@ div.total span{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #387796;
 }
 
 .elem {
@@ -112,7 +111,7 @@ div.total span{
 #header {
   margin:0px;
   padding:0px;
-  margin-bottom:20px;
+  margin-bottom:15px;
   font:15px/1.3 'Open Sans', sans-serif;
   font-weight:bold;
 
@@ -124,7 +123,6 @@ div.total span{
   width: 100vw;
   bottom:0;
   position: absolute;
-  background-color: #333;
   text-align: center;
 }
 

@@ -7,20 +7,20 @@ var demo = new Vue({
     data: {
         services: [
             {
-                name: 'Web Development',
-                price: 300,
+                name: 'Juggling',
+                price: 350,
                 active:true
             },{
                 name: 'Design',
-                price: 400,
+                price: 200,
                 active:false
             },{
-                name: 'Integration',
-                price: 250,
+                name: 'Criticism',
+                price: 0,
                 active:false
             },{
-                name: 'Training',
-                price: 220,
+                name: 'Tutoring',
+                price: 225,
                 active:false
             },{
                 name: 'Babysitting',
